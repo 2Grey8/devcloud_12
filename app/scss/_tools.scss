@@ -1,0 +1,47 @@
+.tools{
+  width: 192rem;
+
+  &__wrap{
+    display: block;
+    width: 140rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+  }
+
+  &__title{
+    display: block;
+    width: 44.7rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+
+  &__inner{
+    width: 140rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__img{
+    width: 58.7rem;
+    height: 62.4rem;
+    margin-right: 20rem;
+  }
+
+  &__list{
+    display: block;
+    width: 60rem;
+  }
+
+  &__item{
+    display: block;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 3rem;
+
+    span{
+      display: block;
+      margin-top: .7rem;
+    }
+  }
+}

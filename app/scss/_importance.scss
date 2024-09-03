@@ -1,0 +1,148 @@
+.importance{
+  width: 192rem;
+
+  &__wrap{
+    display: block;
+    width: 140rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+
+    @include respond(phone){
+      width: 60rem;
+    }
+
+    @include respond(port){
+      width: 90rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+    }
+  }
+
+  &__title{
+    display: block;
+    width: 47rem;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+  }
+
+  &__inner{
+    width: 140rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @include respond(phone){
+      width: 60rem;
+      display: block;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      display: block;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      display: block;
+    }
+
+    &_2{
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__img{
+    display: block;
+
+    &_1{
+      width: 710px;
+      height: 423px;
+      margin-right: 15rem;
+    }
+
+    &_2{
+      width: 710px;
+      height: 457px;
+      margin-right: -15rem;
+    }
+  }
+
+  &__box{
+    display: block;
+    width: 60rem;
+  }
+
+  &__list{
+    display: block;
+    list-style: none;
+  }
+
+  &__item{
+    display: block;
+    width: 54.5rem;
+    text-align: left;
+    margin-bottom: 7rem;
+    position: relative;
+
+    @include respond(phone){
+      width: 60rem;
+      display: block;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      display: block;
+    }
+
+    @include respond(land){
+      display: block;
+    }
+
+    &::before{
+      content: "";
+      width: 27.44px;
+      height: 20.13px;
+      background-repeat: no-repeat;
+      background-image: url(../img/vector.png);
+      position: absolute;
+      top: 20%;
+      left: -12%;
+    }
+  }
+
+  &__text{
+    display: block;
+    width: 54.8rem;
+    text-align: left;
+    margin-bottom: 2.5rem;
+
+    @include respond(phone){
+      width: 60rem;
+      display: block;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      display: block;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      display: block;
+    }
+  }
+
+  &__btn{
+    display: block;
+    width: 26.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+    text-decoration: none;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+  }
+}

@@ -1,0 +1,127 @@
+.about{
+  width: 192rem;
+
+  &__inner{
+    width: 160rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+
+    @include respond(phone){
+      width: 60rem;
+      display: block;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      display: block;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      display: block;
+    }
+  }
+
+  &__img{
+    display: block;
+    width: 652px;
+    height: 570px;
+    margin-right: 8.7rem;
+
+    @include respond(phone){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(port){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(land){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__box{
+    display: block;
+    width: 80rem;
+  }
+
+  &__title{
+    display: block;
+    width: 65.6rem;
+    text-align: left;
+    margin-bottom: 4rem;
+
+    @include respond(phone){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+
+    @include respond(port){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+
+    @include respond(land){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+  }
+
+  &__text{
+    display: block;
+    width: 79.2rem;
+    text-align: left;
+    margin-bottom: 5.5rem;
+
+    @include respond(phone){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(port){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+
+    @include respond(land){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+  }
+
+  &__btn{
+    display: block;
+    width: 26.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+    text-decoration: none;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+
+    @include respond(phone){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(port){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(land){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+  }
+}

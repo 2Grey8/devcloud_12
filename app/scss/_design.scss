@@ -1,0 +1,48 @@
+.design{
+  width: 192rem;
+
+  &__inner{
+    width: 140rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__box{
+    display: block;
+    width: 80rem;
+    text-align: left;
+  }
+
+  &__title{
+    display: block;
+    width: 71rem;
+    margin-bottom: 5rem;
+  }
+
+  &__text{
+    display: block;
+    width: 68.5rem;
+    margin-bottom: 6.4rem;
+  }
+
+  &__btn{
+    display: block;
+    width: 26.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #000000;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+  }
+
+  &__img{
+    display: block;
+    width: 58.7rem;
+    height: 63rem;
+  }
+}

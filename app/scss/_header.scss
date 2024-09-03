@@ -1,0 +1,125 @@
+.header{
+  width: 192rem;
+  background: rgba(41, 162, 140, 0.11);
+
+  &__wrap{
+    display: block;
+    width: 160rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+
+    @include respond(phone){
+      width: 60rem;
+    }
+
+    @include respond(port){
+      width: 90rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+    }
+  }
+
+  &__group{
+    width: 160rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include respond(phone){
+      width: 60rem;
+      display: block;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      display: block;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      width: 120rem;
+    }
+  }
+
+  &__logo{
+    display: block;
+    width: 27rem;
+    height: 5.2rem;
+
+    @include respond(phone){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(port){
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__navigation{
+    display: block;
+    width: 89rem;
+  }
+
+  &__list{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    @include respond(phone){
+      width: 40rem;
+      flex-wrap: wrap;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      flex-wrap: wrap;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item{
+    list-style: none;
+
+    @include respond(phone){
+      display: block;
+      width: 20rem;
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 30rem;
+      margin-bottom: 2rem;
+    }
+
+    @include respond(land){
+      display: block;
+      width: 40rem;
+      margin-bottom: 2rem;
+    }
+
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
